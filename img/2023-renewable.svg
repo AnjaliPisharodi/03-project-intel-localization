@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Renewable electricity in 2023</title>
+  <desc id="desc">A renewable-energy landscape with a turbine, solar array, and bright afternoon sky.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a1d32"/>
+      <stop offset="55%" stop-color="#0d5c8a"/>
+      <stop offset="100%" stop-color="#2ab6df"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#10253d"/>
+      <stop offset="100%" stop-color="#2c79b7"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#03111f" flood-opacity="0.36"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" rx="36" fill="url(#bg)"/>
+  <circle cx="620" cy="134" r="72" fill="#ffd86b" opacity="0.96" filter="url(#softShadow)"/>
+  <path d="M72 446c108-36 194-46 282-44 94 2 162 16 246 18 82 2 118-4 128-8v88H72z" fill="#08304f" opacity="0.82"/>
+  <g filter="url(#softShadow)">
+    <path d="M286 440l56-164 56 164" fill="none" stroke="#eaf8ff" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M286 276l56 82 56-82" fill="none" stroke="#eaf8ff" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M342 276v180" fill="none" stroke="#eaf8ff" stroke-width="16" stroke-linecap="round"/>
+    <path d="M342 276l-46-48" fill="none" stroke="#eaf8ff" stroke-width="16" stroke-linecap="round"/>
+    <path d="M342 276l46-48" fill="none" stroke="#eaf8ff" stroke-width="16" stroke-linecap="round"/>
+    <path d="M342 276l72 22" fill="none" stroke="#eaf8ff" stroke-width="16" stroke-linecap="round"/>
+  </g>
+  <rect x="462" y="294" width="214" height="118" rx="18" fill="url(#panel)" stroke="#dff7ff" stroke-width="8" filter="url(#softShadow)"/>
+  <g stroke="#7fe8ff" stroke-width="5" opacity="0.92">
+    <path d="M484 312h170"/>
+    <path d="M484 338h170"/>
+    <path d="M484 364h170"/>
+    <path d="M542 304v98"/>
+    <path d="M600 304v98"/>
+  </g>
+  <path d="M160 462h480" stroke="#dff7ff" stroke-width="10" stroke-linecap="round" opacity="0.7"/>
+  <path d="M160 460c48-30 82-64 114-114" fill="none" stroke="#45c96d" stroke-width="12" stroke-linecap="round" filter="url(#softShadow)"/>
+  <circle cx="160" cy="460" r="12" fill="#45c96d" filter="url(#softShadow)"/>
+  <text x="58" y="528" fill="#ffffff" font-family="Arial, sans-serif" font-size="52" font-weight="700">2023</text>
+</svg>

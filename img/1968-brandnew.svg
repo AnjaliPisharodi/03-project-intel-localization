@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Intel founded in 1968</title>
+  <desc id="desc">A brand new retro poster-style illustration showing a campus, three founders, and a circular Intel seal.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f6e7bf"/>
+      <stop offset="55%" stop-color="#c7deec"/>
+      <stop offset="100%" stop-color="#6887a8"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#d7c29a"/>
+      <stop offset="100%" stop-color="#9d8669"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#1a1614" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" rx="34" fill="url(#bg)"/>
+  <rect x="0" y="420" width="800" height="180" fill="url(#ground)"/>
+  <path d="M0 406c88-22 182-34 270-30 88 4 162 16 246 18 108 2 196-8 284-24v50H0z" fill="#72859a" opacity="0.16"/>
+  <g filter="url(#shadow)">
+    <rect x="82" y="144" width="220" height="186" rx="12" fill="#e1d7c2" stroke="#8f8165" stroke-width="5"/>
+    <rect x="102" y="176" width="180" height="14" fill="#5f6f86" opacity="0.75"/>
+    <rect x="102" y="206" width="180" height="14" fill="#5f6f86" opacity="0.75"/>
+    <rect x="102" y="236" width="180" height="14" fill="#5f6f86" opacity="0.75"/>
+    <rect x="102" y="266" width="180" height="14" fill="#5f6f86" opacity="0.75"/>
+    <rect x="102" y="296" width="180" height="14" fill="#5f6f86" opacity="0.75"/>
+    <rect x="120" y="108" width="12" height="72" fill="#404c5e"/>
+    <rect x="140" y="92" width="12" height="88" fill="#404c5e"/>
+    <rect x="160" y="120" width="12" height="60" fill="#404c5e"/>
+  </g>
+  <g filter="url(#shadow)">
+    <circle cx="608" cy="178" r="72" fill="#0b6fb8" stroke="#f2f8fb" stroke-width="6"/>
+    <circle cx="608" cy="178" r="46" fill="none" stroke="#ffffff" stroke-width="8"/>
+    <text x="608" y="182" text-anchor="middle" fill="#ffffff" font-family="Georgia, serif" font-size="40" font-style="italic" font-weight="700">intel</text>
+    <text x="608" y="224" text-anchor="middle" fill="#ffffff" font-family="Times New Roman, serif" font-size="24" font-weight="700">1968</text>
+  </g>
+  <g filter="url(#shadow)">
+    <circle cx="260" cy="346" r="24" fill="#f0d8bf"/>
+    <circle cx="400" cy="330" r="24" fill="#f0d8bf"/>
+    <circle cx="540" cy="346" r="24" fill="#f0d8bf"/>
+    <path d="M236 456c8-42 24-64 48-64 26 0 42 18 50 64" fill="#efe5d7"/>
+    <path d="M376 456c8-42 24-64 48-64 24 0 40 18 48 64" fill="#efe5d7"/>
+    <path d="M516 456c8-42 24-64 48-64 26 0 42 18 50 64" fill="#efe5d7"/>
+    <path d="M236 320h-36l-24 74h38z" fill="#5b6d84"/>
+    <path d="M376 306h-32l-24 88h36z" fill="#5b6d84"/>
+    <path d="M516 320h-36l-24 74h38z" fill="#5b6d84"/>
+  </g>
+</svg>

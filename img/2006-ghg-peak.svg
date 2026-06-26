@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Peak greenhouse gas emissions in 2006</title>
+  <desc id="desc">A moody industrial scene with a glowing emissions graph peaking before falling back down.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1a2c"/>
+      <stop offset="55%" stop-color="#13456f"/>
+      <stop offset="100%" stop-color="#1a8acc"/>
+    </linearGradient>
+    <linearGradient id="smoke" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eaf6ff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#eaf6ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#9df1ff"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#03111f" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" rx="36" fill="url(#bg)"/>
+  <rect x="0" y="430" width="800" height="170" fill="#071423" opacity="0.72"/>
+  <path d="M86 430c74-28 130-40 202-38 92 2 164 32 248 36 68 4 128-10 188-30v82H86z" fill="#0a2b4a" opacity="0.88"/>
+  <g opacity="0.95" filter="url(#softShadow)">
+    <rect x="86" y="300" width="164" height="130" rx="12" fill="#143754"/>
+    <rect x="122" y="236" width="26" height="194" rx="13" fill="#0c243b"/>
+    <rect x="166" y="210" width="24" height="220" rx="12" fill="#0c243b"/>
+    <rect x="204" y="252" width="24" height="178" rx="12" fill="#0c243b"/>
+    <path d="M324 402h120v-56l-26-24-22 18-24-18-22 18-18-16-18 16-18-18-22 20z" fill="#123b5d"/>
+    <rect x="352" y="310" width="22" height="92" fill="#dff7ff" opacity="0.9"/>
+    <rect x="394" y="286" width="22" height="116" fill="#dff7ff" opacity="0.9"/>
+    <rect x="436" y="322" width="22" height="80" fill="#dff7ff" opacity="0.9"/>
+    <rect x="508" y="332" width="172" height="100" rx="16" fill="#163c5f"/>
+    <path d="M534 332l22-68 22 32 30-34 38 42 32-22 18 50z" fill="#214d76"/>
+  </g>
+  <ellipse cx="120" cy="150" rx="64" ry="42" fill="url(#smoke)" opacity="0.75"/>
+  <ellipse cx="168" cy="126" rx="82" ry="54" fill="url(#smoke)" opacity="0.65"/>
+  <ellipse cx="214" cy="154" rx="72" ry="46" fill="url(#smoke)" opacity="0.58"/>
+  <path d="M104 394L208 354L314 206L418 258L524 312L656 360" fill="none" stroke="url(#line)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" filter="url(#softShadow)"/>
+  <circle cx="314" cy="206" r="24" fill="#ffd86b" filter="url(#softShadow)"/>
+  <path d="M314 186c18 4 30 18 34 38" fill="none" stroke="#fff4c6" stroke-width="8" stroke-linecap="round"/>
+  <text x="58" y="528" fill="#ffffff" font-family="Arial, sans-serif" font-size="52" font-weight="700">2006</text>
+</svg>

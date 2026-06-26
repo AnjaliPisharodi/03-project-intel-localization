@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Intel 8086 processor</title>
+  <desc id="desc">A cleaner close-up of the Intel 8086 chip centered on the motherboard with balanced label spacing.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#224c63"/>
+      <stop offset="100%" stop-color="#8eb0b6"/>
+    </linearGradient>
+    <linearGradient id="board" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#214e55"/>
+      <stop offset="100%" stop-color="#79a1a5"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2d3640"/>
+      <stop offset="45%" stop-color="#909fa7"/>
+      <stop offset="100%" stop-color="#dfe5e8"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#061117" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" rx="34" fill="url(#bg)"/>
+  <path d="M0 422c108-32 188-40 290-34 110 7 206 36 320 40 86 3 152-8 190-20v192H0z" fill="#0d1f26" opacity="0.56"/>
+  <g filter="url(#shadow)">
+    <rect x="106" y="170" width="588" height="268" rx="26" fill="url(#board)"/>
+    <rect x="252" y="178" width="294" height="250" rx="22" fill="#152a31" opacity="0.85"/>
+    <rect x="274" y="200" width="250" height="206" rx="18" fill="url(#chip)" stroke="#d6dde0" stroke-width="8"/>
+    <text x="399" y="236" text-anchor="middle" fill="#20323d" font-family="Times New Roman, serif" font-size="28" font-style="italic" font-weight="700">intel</text>
+    <text x="399" y="296" text-anchor="middle" fill="#20323d" font-family="Times New Roman, serif" font-size="60" font-weight="700">8086</text>
+    <text x="399" y="336" text-anchor="middle" fill="#20323d" font-family="Times New Roman, serif" font-size="22">1978</text>
+  </g>
+  <g fill="#ced9dd" filter="url(#shadow)">
+    <rect x="176" y="218" width="18" height="18" rx="4"/>
+    <rect x="176" y="250" width="18" height="18" rx="4"/>
+    <rect x="176" y="282" width="18" height="18" rx="4"/>
+    <rect x="176" y="314" width="18" height="18" rx="4"/>
+    <rect x="606" y="218" width="18" height="18" rx="4"/>
+    <rect x="606" y="250" width="18" height="18" rx="4"/>
+    <rect x="606" y="282" width="18" height="18" rx="4"/>
+    <rect x="606" y="314" width="18" height="18" rx="4"/>
+    <rect x="298" y="126" width="14" height="36" rx="5"/>
+    <rect x="332" y="124" width="14" height="38" rx="5"/>
+    <rect x="366" y="126" width="14" height="36" rx="5"/>
+    <rect x="400" y="124" width="14" height="38" rx="5"/>
+    <rect x="434" y="126" width="14" height="36" rx="5"/>
+    <rect x="468" y="124" width="14" height="38" rx="5"/>
+  </g>
+</svg>

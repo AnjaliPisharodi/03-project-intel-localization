@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">First Intel microprocessor</title>
+  <desc id="desc">A close-up laboratory scene of the first microprocessor chip lit with cool metal reflections and circuitry.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#152536"/>
+      <stop offset="55%" stop-color="#5f8ba9"/>
+      <stop offset="100%" stop-color="#c7d7df"/>
+    </linearGradient>
+    <linearGradient id="board" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#23485d"/>
+      <stop offset="100%" stop-color="#7b9aa8"/>
+    </linearGradient>
+    <linearGradient id="chip" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#b8c6d0"/>
+      <stop offset="40%" stop-color="#eff6fb"/>
+      <stop offset="100%" stop-color="#728da0"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-color="#08111a" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <rect width="800" height="600" rx="34" fill="url(#bg)"/>
+  <path d="M0 430c100-34 180-44 286-36 122 10 218 40 324 44 80 3 146-8 190-22v184H0z" fill="#102030" opacity="0.64"/>
+  <g filter="url(#shadow)">
+    <rect x="120" y="172" width="560" height="266" rx="24" fill="url(#board)"/>
+    <path d="M144 198h512M144 240h512M144 282h512M144 324h512M144 366h512" stroke="#d9e5ec" stroke-width="4" opacity="0.22"/>
+    <path d="M166 194v214M210 194v214M254 194v214M298 194v214M342 194v214M386 194v214M430 194v214M474 194v214M518 194v214M562 194v214M606 194v214M650 194v214" stroke="#d9e5ec" stroke-width="4" opacity="0.18"/>
+    <rect x="270" y="220" width="260" height="178" rx="18" fill="#101a24" stroke="#9fb0bd" stroke-width="10"/>
+    <rect x="304" y="254" width="192" height="110" rx="12" fill="url(#chip)"/>
+    <text x="326" y="304" fill="#173142" font-family="Times New Roman, serif" font-size="26" font-weight="700">Intel 4004</text>
+    <text x="341" y="336" fill="#173142" font-family="Times New Roman, serif" font-size="22">1971</text>
+  </g>
+  <g fill="#a8c0cc" filter="url(#shadow)">
+    <rect x="234" y="210" width="16" height="24" rx="6"/>
+    <rect x="234" y="246" width="16" height="24" rx="6"/>
+    <rect x="234" y="282" width="16" height="24" rx="6"/>
+    <rect x="234" y="318" width="16" height="24" rx="6"/>
+    <rect x="550" y="210" width="16" height="24" rx="6"/>
+    <rect x="550" y="246" width="16" height="24" rx="6"/>
+    <rect x="550" y="282" width="16" height="24" rx="6"/>
+    <rect x="550" y="318" width="16" height="24" rx="6"/>
+    <rect x="314" y="150" width="16" height="34" rx="6"/>
+    <rect x="348" y="146" width="16" height="38" rx="6"/>
+    <rect x="382" y="150" width="16" height="34" rx="6"/>
+    <rect x="416" y="146" width="16" height="38" rx="6"/>
+    <rect x="450" y="150" width="16" height="34" rx="6"/>
+    <rect x="484" y="146" width="16" height="38" rx="6"/>
+  </g>
+  <circle cx="650" cy="132" r="58" fill="#ffffff" opacity="0.26"/>
+</svg>

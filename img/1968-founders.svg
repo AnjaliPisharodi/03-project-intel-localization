@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Intel founded in 1968</title>
+  <desc id="desc">A clean illustration of two founders, a building, and a rising spark against Intel blue gradients.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00a3f0"/>
+      <stop offset="100%" stop-color="#0048a3"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#9be7ff"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" rx="36" fill="url(#bg)"/>
+  <circle cx="650" cy="110" r="86" fill="url(#sun)" opacity="0.95"/>
+  <rect x="118" y="205" width="210" height="210" rx="18" fill="#0b2341" opacity="0.92"/>
+  <rect x="150" y="242" width="54" height="54" rx="8" fill="#9be7ff"/>
+  <rect x="220" y="242" width="54" height="54" rx="8" fill="#9be7ff"/>
+  <rect x="150" y="314" width="124" height="84" rx="10" fill="#dff7ff"/>
+  <path d="M436 404c28-56 82-94 142-94s114 38 142 94" fill="none" stroke="#dff7ff" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="454" cy="250" r="28" fill="#f6f4ef"/>
+  <circle cx="586" cy="250" r="28" fill="#f6f4ef"/>
+  <path d="M422 423c7-45 29-69 63-69s56 24 63 69" fill="#f6f4ef"/>
+  <path d="M554 423c7-45 29-69 63-69s56 24 63 69" fill="#f6f4ef"/>
+  <path d="M478 329h-48l-34 94h66z" fill="#133a6f"/>
+  <path d="M610 329h-48l-34 94h66z" fill="#133a6f"/>
+  <path d="M458 185l18-30 18 30-18 30z" fill="#ffd86b"/>
+  <path d="M530 160l12-20 12 20-12 20z" fill="#ffd86b"/>
+  <path d="M548 146l24-42 24 42-24 42z" fill="#ffffff" opacity="0.88"/>
+  <text x="58" y="528" fill="#ffffff" font-family="Arial, sans-serif" font-size="52" font-weight="700">1968</text>
+</svg>
